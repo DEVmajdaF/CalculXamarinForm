@@ -39,6 +39,7 @@
                 <ColumnDefinition Width="80"  />
             </Grid.ColumnDefinitions>
             
+            
             <Button Grid.Column="0" Text="C"
                      BackgroundColor="Yellow"
                HorizontalOptions="Center"
