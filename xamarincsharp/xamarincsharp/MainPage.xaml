@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xamarincsharp.MainPage">
+
+
+
+    <StackLayout BackgroundColor="Black"
+             Margin="10"
+             Padding="6">
+
+        <Label 
+            Text="123"
+            FontSize="26"
+            Margin="20"
+            TextColor="Black"
+            HeightRequest="180"
+            BackgroundColor="#FFFF99"
+           
+           
+            />
+
+
+        <Grid 
+             HorizontalOptions="Center"
+             VerticalOptions="Center" 
+            >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80"  />
+                <ColumnDefinition Width="80"  />
+                <ColumnDefinition Width="80"  />
+            </Grid.ColumnDefinitions>
+            
+            <Button Grid.Column="0" Text="C"
+                     BackgroundColor="Yellow"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               WidthRequest="50"  
+               HeightRequest="50"
+               BorderRadius="25"/>
+            <Button Grid.Column="1" Text="del" 
+                    BackgroundColor="Yellow"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"/>
+              
+            <Button Grid.Column="2"
+                    BackgroundColor="Yellow"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"
+                    Text="%"
+                    
+               />
+            <Button Grid.Column="3"
+                    BackgroundColor="Yellow"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Text="/"
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"
+                />
+            
+            
+            
+          
+
+            <Button Grid.Row="1"  Text="7"
+                       BackgroundColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               WidthRequest="50"  
+               HeightRequest="50"
+               BorderRadius="15"
+                    />
+            <Button Grid.Row="1" Grid.Column="1" Text="8" 
+                       BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                   BorderRadius="15"/>
+
+            <Button Grid.Row="1" 
+                       BackgroundColor="White"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                   BorderRadius="15"
+                    Text="9"
+                    
+               />
+            <Button Grid.Row="1" 
+                    BackgroundColor="Yellow"
+                    Grid.Column="3"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Text="X"
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"
+                />
+
+
+
+
+            <Button Grid.Row="2"  Text="4"
+                       BackgroundColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               WidthRequest="50"  
+               HeightRequest="50"
+               BorderRadius="15"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="5" 
+                       BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                   BorderRadius="15"/>
+
+            <Button Grid.Row="2" 
+                     BackgroundColor="White"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="15"
+                    Text="6"
+                    
+               />
+            <Button Grid.Row="2" 
+                    BackgroundColor="Yellow"
+                    Grid.Column="3"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Text="-"
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"
+                />
+
+
+
+
+            <Button Grid.Row="3"  Text="1"
+                       BackgroundColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               WidthRequest="50"  
+               HeightRequest="50"
+               BorderRadius="15"/>
+            
+            <Button Grid.Row="3" Grid.Column="1" Text="2" 
+                       BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                   BorderRadius="15"/>
+
+            <Button Grid.Row="3" 
+                     BackgroundColor="White"
+                    Grid.Column="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="15"
+                    Text="3"
+                    
+               />
+            <Button Grid.Row="3" 
+                    BackgroundColor="Yellow"
+                    Grid.Column="3"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Text="+"
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                    BorderRadius="25"
+                />
+
+
+
+
+
+
+
+            <Button Grid.Row="4"  Text="."
+               BackgroundColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+               WidthRequest="50"  
+               HeightRequest="50"
+               BorderRadius="15"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="0" 
+                       BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="50" 
+                    HeightRequest="50"
+                   BorderRadius="15"/>
+
+ 
+
+            <Button Grid.Row="4" 
+                     BackgroundColor="Yellow"
+                     Grid.Column="2"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    WidthRequest="140" 
+                    HeightRequest="50"
+                    BorderRadius="15"
+                    Text="="
+                    
+               />
+           
+
+
+
+        </Grid>
+
+
+
+
+    </StackLayout>
+
+
+
+
+
+
+</ContentPage>
